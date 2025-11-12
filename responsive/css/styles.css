@@ -1,0 +1,163 @@
+ body {
+    background-color: #0D0D0D;
+ }
+
+ #container {
+    background-color: #15403B;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #F2C572;
+    padding: 20px;
+    border-radius: 20px;
+ }
+
+ header {
+    text-align: center;
+ }
+
+ header h1 {
+    color: #F2C572;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 20px;
+ }
+
+ nav {
+    text-align: center;
+    border-top: 2px solid #F2C572;
+    border-bottom: 2px solid #F2C572;
+    padding: 20px 0;
+ }
+
+nav ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+nav li {
+   display: inline-block;
+}
+
+nav li a {
+   display: block;
+   background-color: #0D0D0D;
+   color: #F2C572;
+   width: 250px;
+   height: 40px;
+   line-height: 40px;
+   font-size: 25px;
+   text-decoration: none;
+   border-radius: 10px;
+   border: 2px solid;
+}
+
+ nav a {
+    color: #F2C572;
+    font-size: 30px;
+    margin: 0 20px;
+ }
+
+ nav a:hover {
+    color: #F2B263;
+    text-decoration: none;
+ }
+
+main {
+    margin: 20px auto;
+    border: 2px solid #F2C572;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+ main h2 {
+    color: #F2C572;
+    text-align: center;
+ }
+
+.multi_col {
+   display: flex;
+}
+
+ main img {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 20px;
+ }
+
+ footer {
+    color: #F2C572;
+    padding: 40px 0;
+    text-align: center;
+    border-top: 2px solid #F2C572;
+ }
+
+ p {
+    color: #F2C572;
+    text-align: center;
+ }
+
+ h3 {
+    color: #F2C572;
+    text-align: center;
+ }
+
+ ul {
+    color: #F2C572;
+    font-size: 20px;
+ }
+
+ a {
+    color: #F2C572;
+ }
+
+ a:hover {
+    color: #F2B263;
+ }
+
+ section, aside {
+   border-radius: 20px;
+   border: 2px solid #F2C572;
+   margin: 20px auto;
+   padding: 20px;
+ }
+
+ section {
+   width: 75%
+ }
+
+ aside {
+   width: 25%;
+   text-align: center;
+ }
+
+ section img {
+   border-radius: 10px;
+   width: 80%;
+   display: flex;
+ }
+
+ .nightblue {
+   color: #3D71D9;
+ }
+
+ aside ul {
+   list-style-type: none;
+   display: inline-block auto;
+   padding: 20px
+ }
+
+ hr {
+   border: 1px solid #F2C572;
+ }
+
+ /* Mobile Styles */
+
+ header {
+   background-image: url("../images/elden-ring-launch-trailer-thumbnail.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 50px;
+ }
+
+ 
