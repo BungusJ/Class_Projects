@@ -28,6 +28,12 @@ iframe {
     display: block;
 }
 
+.video_frame {
+    width: 65%;
+    max-width: 100%;
+    border: 0;
+}
+
 h1, h2, h3 {
     font-family: "Cinzel Decorative", serif;
   font-weight: 400;
